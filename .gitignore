@@ -1,0 +1,32 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.virtualenvs/
+*.env
+
+# Ignore logs and database files
+*.log
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore package distributions
+dist/
+build/
+*.egg-info/
+
+# Ignore Streamlit cache files
+.streamlit/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
